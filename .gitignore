@@ -1,0 +1,20 @@
+# Local executables and downloaded rule data
+/bin/
+/data/geoip.metadb
+/data/ruleset/*.mrs
+
+# Generated Mihomo configuration can contain subscription credentials
+/data/config.yaml
+/data/profiles/
+
+# Local subscription sources
+/subscription*
+/subscriptions/
+
+# Python and local environment files
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.DS_Store
+*.log
